@@ -2,8 +2,8 @@
 
 void setup() {
   // Инициализируем Wire (I2C) с произвольными пинами SDA и SCL
-  Wire.setSDA(4);
-  Wire.setSCL(5);
+  Wire.setSDA(16);
+  Wire.setSCL(17);
   Wire.begin();
 
   Serial.begin(115200);
